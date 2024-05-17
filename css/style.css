@@ -4,7 +4,7 @@ may 16, 2024
 GUI 1 assignment= First Web page
 File: style.css
 The description: The web page provides information about trees from Germany and the city of Berlin. Links are provided for more reading, and I provide a table of the area of Berlin. Two images are shown on the page.
-
+The css file adds a color to the background and centers the div so that the content of the html file can be portrayed in a neat fashion. The size of the image is set to a value. And the table cells have a border.
 */
 
 /* import font from google font */
