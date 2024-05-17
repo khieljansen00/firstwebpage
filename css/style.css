@@ -23,9 +23,33 @@ The css file adds a color to the background and centers the div so that the cont
 	margin-bottom: 50px;
 }
 
+.nav {
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 50px 50px 50px 50px;
+}
+
+.nav p {
+	display: inline;
+	margin-right: 40px;
+}
+
+.nav p a {
+	text-decoration: none;
+}
+
+.nav p a:visited {
+	color: #000;
+}
+
+.nav p a:hover {
+	border-bottom: 2px solid #000;
+}
+
 /* make the .body div centered and assign a value to the width */
 .body {
-	width: 950px;
+	width: 1100px;
 	margin: 0 auto;
 	background-color: #fff;
 	padding: 50px 50px 50px 50px;
