@@ -1,0 +1,53 @@
+/*
+Khiel Jansen Mantilla
+may 16, 2024
+GUI 1 assignment= First Web page
+File: style.css
+The description: The web page provides information about trees from Germany and the city of Berlin. Links are provided for more reading, and I provide a table of the area of Berlin. Two images are shown on the page.
+
+*/
+
+/* import font from google font */
+@font-face {
+	font-family: 'Hedvig';
+	src: url('Hedvig.ttf') format('truetype');
+	font-weight: 400;
+}
+
+.pinus {
+	width: 200px;
+}
+
+.berlin {
+	width: 500px;
+	margin-bottom: 50px;
+}
+
+/* make the .body div centered and assign a value to the width */
+.body {
+	width: 950px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 50px 50px 50px 50px;
+}
+
+body {
+	font-family: 'Hedvig', serif;
+	font-size: 16px;
+	background-color: #2B3544;
+	padding: 0;
+}
+
+h4 {
+	font-size: 25px;
+}
+
+/* add border to the table cells */
+th, td {
+	border: 1px solid black;
+	padding: 40px 40px 40px 40px;
+}
+
+.icons {
+	margin-top: 120px;
+}
