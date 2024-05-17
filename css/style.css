@@ -39,10 +39,6 @@ The css file adds a color to the background and centers the div so that the cont
 	text-decoration: none;
 }
 
-.nav p a:visited {
-	color: #000;
-}
-
 .nav p a:hover {
 	border-bottom: 2px solid #000;
 }
